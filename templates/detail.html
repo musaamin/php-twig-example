@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="col-sm-5">
+  <table class="table">
+    <caption>Detail Barang</caption>
+    <tr>
+      <th>Kode Barang</th>
+      <td>{{ data.kd_barang }}</td>
+    </tr>
+    <tr>
+      <th>Nama Barang</th>
+      <td>{{ data.nama_barang }}</td>
+    </tr>
+    <tr>
+      <th>Harga</th>
+      <td>{{ data.harga }}</td>
+    </tr>
+    <tr>
+      <th>Stok</th>
+      <td>{{ data.stok }}</td>
+    </tr>
+  </table>
+  </div>
+
+{% endblock %}
